@@ -9,7 +9,7 @@ import Cabins from "./pages/Cabins"
 import Users from "./pages/Users"
 import Settings from "./pages/Settings"
 import Account from "./pages/Account"
-import Loging from "./pages/Login"
+import Login from "./pages/Login"
 import PageNotFound from "./pages/PageNotFound"
 import AppLayout from "./ui/AppLayout"
 import { Toaster } from "react-hot-toast"
@@ -39,7 +39,7 @@ function App() {
             <Route path="settings" element={<Settings />} />
             <Route path="account" element={<Account />} />
           </Route>
-          <Route path="login" element={<Loging />} />
+          <Route path="login" element={<Login />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
