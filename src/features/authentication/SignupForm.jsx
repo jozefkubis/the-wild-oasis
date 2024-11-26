@@ -13,7 +13,7 @@ function SignupForm() {
   const { errors } = formState
 
   function onSubmit({ fullName, email, password }) {
-    signup({ fullName, email, password }, { onSettled: reset })
+    signup({ fullName, email, password }, { onSettled: () => reset() })
   }
 
   return (
