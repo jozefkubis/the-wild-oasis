@@ -12,11 +12,9 @@ import { useMoveBack } from "../../hooks/useMoveBack"
 import { useBooking } from "../bookings/useBooking"
 import Spinner from "../../ui/Spinner"
 import { useEffect, useState } from "react"
-import { id } from "date-fns/locale"
 import { formatCurrency } from "../../utils/helpers"
 import useCheckin from "./useCheckin"
 import { useSettings } from "../settings/useSettings"
-import { add } from "date-fns"
 
 const Box = styled.div`
   /* Box */
